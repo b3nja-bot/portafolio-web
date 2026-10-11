@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
       if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-        // Cierra el menú desplegable en pantallas pequeñas
         const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
         if (bsCollapse) {
           bsCollapse.hide();
@@ -58,44 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 2000);
       });
     });
-  }
-
-  // FORMULARIO DE CONTACTO //
-  const contactForm = document.getElementById('contactForm');
-  const formFeedback = document.getElementById('formFeedback');
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-
-      const name = document.getElementById('senderName').value;
-      const subject = document.getElementById('senderSubject').value;
-      const message = document.getElementById('senderMessage').value;
-
-      // Crear enlace mailto directo y accesible
-      const mailtoLink = `mailto:benjaminsitocl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Hola Benjamín, soy ' + name + ':\n\n' + message)}`;
-      
-      // Mostrar confirmación visual limpia
-      if (formFeedback) {
-        formFeedback.classList.remove('d-none');
-        formFeedback.innerHTML = `
-          <div class="alert alert-dark border-secondary text-white py-2 px-3 mt-3 mb-0" role="alert">
-            <i class="bi bi-envelope-check text-info me-2"></i>
-            Redirigiendo a tu cliente de correo... Si no se abre automáticamente, 
-            <a href="${mailtoLink}" class="text-white text-decoration-underline fw-bold">haz clic aquí</a>.
-          </div>
-        `;
-      }
-
-      window.location.href = mailtoLink;
-      contactForm.reset();
-    });
-  }
-
-  // AÑO DINAMICO FOOTER //
-  const yearSpan = document.getElementById('currentYear');
-  if (yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
   }
 
 });

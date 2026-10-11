@@ -8,7 +8,7 @@
   <meta name="author" content="Christian Benjamín López Aguilar">
   <title>Benjamín López | Portafolio Profesional</title>
 
-  <!-- Google Fonts: Inter para estética sobria y moderna -->
+  <!-- Google Fonts: Inter para máxima legibilidad y estética sobria -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -66,9 +66,9 @@
   <section id="inicio" class="hero-section d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center text-center">
       
-      <!-- Foto de Perfil Circular Profesional -->
+      <!-- Foto de Perfil Circular Profesional desde SRC -->
       <div class="hero-avatar-wrapper">
-        <img src="img/perfil.jpg" alt="Foto profesional de Benjamín López" class="rounded-circle hero-avatar shadow">
+        <img src="img/perfil.png" alt="Foto profesional de Benjamín López" class="rounded-circle hero-avatar shadow">
         <div class="hero-status-pill">
           <span class="status-dot"></span>
           <span>Disponible para proyectos</span>
@@ -81,18 +81,18 @@
       </div>
 
       <!-- Título Principal y Perfil -->
-      <h1 class="hero-title text-gradient">
+      <h1 class="hero-title text-gradient-hero">
         Christian Benjamín López
       </h1>
       
-      <p class="hero-subtitle text-hover-effect">
-        Desarrollador de Software Junior enfocado en la creación de aplicaciones web responsivas, sistemas de información y soluciones digitales sobrias, eficientes y escalables.
+      <p class="hero-subtitle">
+        Desarrollador de Software Junior enfocado en aplicaciones web responsivas, sistemas de automatización, inteligencia artificial y soluciones tecnológicas eficientes.
       </p>
 
       <!-- Botones de Llamado a la Acción (Flexbox) -->
       <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center w-100" style="max-width: 520px;">
         <a href="#proyectos" class="btn-samsung-primary">
-          <i class="bi bi-code-slash"></i> Ver Proyectos
+          <i class="bi bi-grid-fill"></i> Ver Proyectos
         </a>
         <a href="src/Curriculum_Benjamin_Lopez.pdf" target="_blank" class="btn-samsung-secondary">
           <i class="bi bi-file-earmark-person-fill"></i> Ver Currículum
@@ -112,10 +112,10 @@
     <div class="container">
       
       <div class="section-header">
-        <span class="section-label">// PERFIL PROFESIONAL //</span>
-        <h2 class="section-heading text-gradient">Sobre Mí</h2>
+        <span class="section-label text-info">// PERFIL PROFESIONAL //</span>
+        <h2 class="section-heading text-gradient-cyan">Sobre Mí</h2>
         <p class="section-description">
-          Construyendo software con rigor técnico, enfoque Mobile First y pasión por el diseño limpio.
+          Construyendo software con rigor técnico, enfoque Mobile First y pasión por la innovación tecnológica.
         </p>
       </div>
 
@@ -124,11 +124,11 @@
           <div class="about-card h-100 d-flex flex-column justify-content-between">
             <div>
               <h3 class="h4 text-white mb-3 fw-bold">Formación y Enfoque de Desarrollo</h3>
-              <p class="text-secondary mb-3">
-                Soy estudiante de 5to semestre de la carrera de Tecnologías de la Información en la <strong>Universidad de las Fuerzas Armadas ESPE</strong>. Mi formación combina sólidos fundamentos de programación estructurada y orientada a objetos, arquitectura web cliente-servidor y administración de bases de datos.
+              <p class="mb-3">
+                Soy estudiante de 5to semestre de la carrera de Tecnologías de la Información en la <strong>Universidad de las Fuerzas Armadas ESPE</strong>. Mi formación combina sólidos fundamentos de programación estructurada y orientada a objetos, arquitectura cliente-servidor y administración de bases de datos.
               </p>
-              <p class="text-secondary mb-4">
-                Me caracterizo por abordar cada proyecto priorizando la experiencia del usuario, la semántica del código y un diseño sobrio de inspiración premium. Aplico metodologías ágiles y principios de optimización para asegurar que cada interfaz funcione con fluidez en cualquier dispositivo.
+              <p class="mb-4">
+                He desarrollado proyectos prácticos integrando APIs, automatización de mensajería, controladores de hardware para simulación y sistemas de gestión de conocimiento asistidos por inteligencia artificial.
               </p>
             </div>
 
@@ -136,14 +136,14 @@
             <div class="row g-3">
               <div class="col-12 col-sm-6">
                 <div class="about-highlight-box">
-                  <div class="text-white fw-bold mb-1"><i class="bi bi-geo-alt-fill text-secondary me-2"></i>Ubicación</div>
-                  <div class="text-secondary small">Quito / Sangolquí, Ecuador</div>
+                  <div class="text-white fw-bold mb-1"><i class="bi bi-geo-alt-fill text-danger me-2"></i>Ubicación</div>
+                  <div class="text-light small">Quito / Sangolquí, Ecuador</div>
                 </div>
               </div>
               <div class="col-12 col-sm-6">
                 <div class="about-highlight-box">
                   <div class="text-white fw-bold mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Estado</div>
-                  <div class="text-secondary small">Abierto a Pasantías / Proyectos</div>
+                  <div class="text-light small">Abierto a Pasantías y Proyectos</div>
                 </div>
               </div>
             </div>
@@ -156,35 +156,35 @@
             
             <div class="about-highlight-box flex-fill">
               <div class="d-flex align-items-center gap-3 mb-2">
-                <div class="contact-icon-circle"><i class="bi bi-phone"></i></div>
+                <div class="contact-icon-circle text-info"><i class="bi bi-phone"></i></div>
                 <div>
                   <h4 class="h6 text-white mb-0 fw-bold">Filosofía Mobile First</h4>
-                  <small class="text-secondary">Diseño desde pantallas pequeñas a escritorio</small>
+                  <small class="text-info">Diseño adaptable desde pantallas pequeñas</small>
                 </div>
               </div>
-              <p class="text-secondary small mb-0">Estructuras pensadas primero para dispositivos móviles mediante las clases de utilidad Flexbox y el sistema responsivo de Bootstrap 5.</p>
+              <p class="small mb-0">Estructuras pensadas primero para dispositivos móviles mediante las clases de utilidad Flexbox y el sistema de rejillas responsivo de Bootstrap 5.</p>
             </div>
 
             <div class="about-highlight-box flex-fill">
               <div class="d-flex align-items-center gap-3 mb-2">
-                <div class="contact-icon-circle"><i class="bi bi-database-check"></i></div>
+                <div class="contact-icon-circle text-warning"><i class="bi bi-cpu"></i></div>
                 <div>
-                  <h4 class="h6 text-white mb-0 fw-bold">Persistencia y Backend</h4>
-                  <small class="text-secondary">PHP, MySQL y Arquitecturas CRUD</small>
+                  <h4 class="h6 text-white mb-0 fw-bold">Software &amp; Hardware</h4>
+                  <small class="text-warning">APIs, Python &amp; Controladores C++</small>
                 </div>
               </div>
-              <p class="text-secondary small mb-0">Desarrollo de lógica transaccional, consultas parametrizadas y modelos de datos normalizados para sistemas comerciales.</p>
+              <p class="small mb-0">Desarrollo de lógica transaccional, integración de servicios RESTful y microcontroladores con comunicación serial de baja latencia.</p>
             </div>
 
             <div class="about-highlight-box flex-fill">
               <div class="d-flex align-items-center gap-3 mb-2">
-                <div class="contact-icon-circle"><i class="bi bi-terminal"></i></div>
+                <div class="contact-icon-circle text-success"><i class="bi bi-git"></i></div>
                 <div>
                   <h4 class="h6 text-white mb-0 fw-bold">Control de Versiones</h4>
-                  <small class="text-secondary">Git, GitHub &amp; CI/CD Pages</small>
+                  <small class="text-success">Git, GitHub &amp; CI/CD Pages</small>
                 </div>
               </div>
-              <p class="text-secondary small mb-0">Flujo continuo con ramas, commits descriptivos y despliegue automatizado en la nube con GitHub Pages.</p>
+              <p class="small mb-0">Flujo continuo con ramas, commits descriptivos y despliegue automatizado en la nube a través de GitHub Pages.</p>
             </div>
 
           </div>
@@ -201,100 +201,81 @@
     <div class="container">
       
       <div class="section-header">
-        <span class="section-label">// CASOS REALES Y DESARROLLOS //</span>
-        <h2 class="section-heading text-gradient">Portafolio de Proyectos</h2>
+        <span class="section-label" style="color: #c084fc;">// PROYECTOS DESARROLLADOS //</span>
+        <h2 class="section-heading text-gradient-purple">Portafolio de Proyectos</h2>
         <p class="section-description">
-          Sistemas implementados aplicando arquitectura cliente-servidor, componentes de Bootstrap 5 y buenas prácticas de desarrollo web.
+          Sistemas reales implementados aplicando arquitectura cliente-servidor, componentes de Bootstrap 5 y buenas prácticas de ingeniería de software.
         </p>
       </div>
 
       <!-- Grilla de Bootstrap: 1 tarjeta por fila en móviles (col-12) y 3 en escritorio (col-md-4) -->
       <div class="row g-4">
 
-        <!-- // TARJETA PROYECTO 1: SISTEMA POS // -->
+        <!-- // PROYECTO 1: SEGUNDO CEREBRO AI // -->
         <div class="col-12 col-md-4">
-          <div class="project-card">
-            <div class="project-img-wrapper">
-              <img src="img/proyecto-pos.svg" alt="Mockup del Sistema de Punto de Venta POS" class="project-img">
+          <div class="project-card project-card-cyan">
+            <div class="project-icon-wrapper project-icon-cyan">
+              <i class="bi bi-brain"></i>
             </div>
-            <div class="project-body">
-              <div class="tech-badge-container">
-                <span class="tech-badge">PHP</span>
-                <span class="tech-badge">MySQL</span>
-                <span class="tech-badge">JavaScript</span>
-                <span class="tech-badge">Bootstrap 5</span>
-              </div>
-              <h3 class="project-title">Sistema de Punto de Venta (POS) &amp; Facturación</h3>
-              <p class="project-desc">
-                Aplicación web comercial completa para control de inventario en tiempo real, registro ágil de ventas por mostrador, cálculo de impuestos, alertas de stock mínimo y emisión de comprobantes.
-              </p>
-              <div class="project-actions">
-                <button type="button" class="btn-project btn-project-main" data-bs-toggle="modal" data-bs-target="#modalPos">
-                  <i class="bi bi-eye"></i> Ver Detalles
-                </button>
-                <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="btn-project btn-project-outline">
-                  <i class="bi bi-github"></i> Código
-                </a>
-              </div>
+            <h3 class="project-title text-info">Segundo Cerebro &amp; Asistente AI</h3>
+            <p class="project-desc">
+              Plataforma web de productividad y gestión de conocimiento personal. Integra indexación semántica de apuntes, cliente de inteligencia artificial para síntesis de estudio y visualizaciones interactivas en WebGL/Three.js.
+            </p>
+            <div class="tech-badge-container">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">FastAPI</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">WebGL</span>
+              <span class="tech-badge">Bootstrap 5</span>
             </div>
+            <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="btn-project-code">
+              <i class="bi bi-github"></i> Ver Código en GitHub
+            </a>
           </div>
         </div>
 
-        <!-- // TARJETA PROYECTO 2: SEGUNDO CEREBRO // -->
+        <!-- // PROYECTO 2: DISCOURSE MANAGER // -->
         <div class="col-12 col-md-4">
-          <div class="project-card">
-            <div class="project-img-wrapper">
-              <img src="img/proyecto-segundo-cerebro.svg" alt="Mockup de Segundo Cerebro Asistente Inteligente" class="project-img">
+          <div class="project-card project-card-emerald">
+            <div class="project-icon-wrapper project-icon-emerald">
+              <i class="bi bi-whatsapp"></i>
             </div>
-            <div class="project-body">
-              <div class="tech-badge-container">
-                <span class="tech-badge">JavaScript</span>
-                <span class="tech-badge">REST API</span>
-                <span class="tech-badge">Python</span>
-                <span class="tech-badge">Bootstrap 5</span>
-              </div>
-              <h3 class="project-title">Segundo Cerebro &amp; Asistente Inteligente</h3>
-              <p class="project-desc">
-                Plataforma de gestión de conocimiento personal y apuntes académicos conectada a un asistente contextual. Permite indexar recursos, generar síntesis de estudio y buscar conceptos en milisegundos.
-              </p>
-              <div class="project-actions">
-                <button type="button" class="btn-project btn-project-main" data-bs-toggle="modal" data-bs-target="#modalBrain">
-                  <i class="bi bi-eye"></i> Ver Detalles
-                </button>
-                <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="btn-project btn-project-outline">
-                  <i class="bi bi-github"></i> Código
-                </a>
-              </div>
+            <h3 class="project-title text-success">Discourse &amp; WhatsApp Manager</h3>
+            <p class="project-desc">
+              Sistema para extracción, procesamiento automatizado y gestión de discursos y asignaciones desde chats de WhatsApp. Conexión con WAHA API, almacenamiento en base de datos SQLite y panel frontend responsivo.
+            </p>
+            <div class="tech-badge-container">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">SQLite</span>
+              <span class="tech-badge">WAHA API</span>
+              <span class="tech-badge">Docker</span>
+              <span class="tech-badge">HTML/CSS</span>
             </div>
+            <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="btn-project-code">
+              <i class="bi bi-github"></i> Ver Código en GitHub
+            </a>
           </div>
         </div>
 
-        <!-- // TARJETA PROYECTO 3: CRUD EMPRESARIAL // -->
+        <!-- // PROYECTO 3: SIM RACING TELEMETRY // -->
         <div class="col-12 col-md-4">
-          <div class="project-card">
-            <div class="project-img-wrapper">
-              <img src="img/proyecto-crud.svg" alt="Mockup del Sistema CRUD Empresarial" class="project-img">
+          <div class="project-card project-card-amber">
+            <div class="project-icon-wrapper project-icon-amber">
+              <i class="bi bi-speedometer2"></i>
             </div>
-            <div class="project-body">
-              <div class="tech-badge-container">
-                <span class="tech-badge">PHP</span>
-                <span class="tech-badge">MySQL</span>
-                <span class="tech-badge">HTML5</span>
-                <span class="tech-badge">CSS3 / Flexbox</span>
-              </div>
-              <h3 class="project-title">Sistema CRUD de Inventario y Clientes</h3>
-              <p class="project-desc">
-                Módulo web interactivo enfocado en operaciones Create, Read, Update y Delete. Cuenta con validación síncrona y asíncrona, sanitización de entradas, paginación dinámica y diseño 100% responsivo.
-              </p>
-              <div class="project-actions">
-                <button type="button" class="btn-project btn-project-main" data-bs-toggle="modal" data-bs-target="#modalCrud">
-                  <i class="bi bi-eye"></i> Ver Detalles
-                </button>
-                <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="btn-project btn-project-outline">
-                  <i class="bi bi-github"></i> Código
-                </a>
-              </div>
+            <h3 class="project-title text-warning">Sim Racing Wheel Controller v4</h3>
+            <p class="project-desc">
+              Controlador embebido y firmware de telemetría para volante custom de simulación de carreras. Adquisición de señales analógicas y digitales, filtros de debounce, integración con vJoy y comunicación serial de baja latencia.
+            </p>
+            <div class="tech-badge-container">
+              <span class="tech-badge">C++ / Arduino</span>
+              <span class="tech-badge">vJoy Serial</span>
+              <span class="tech-badge">Hardware I/O</span>
+              <span class="tech-badge">Microcontrolador</span>
             </div>
+            <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="btn-project-code">
+              <i class="bi bi-github"></i> Ver Código en GitHub
+            </a>
           </div>
         </div>
 
@@ -310,10 +291,10 @@
     <div class="container">
       
       <div class="section-header">
-        <span class="section-label">// COMPETENCIAS Y STACK TECNOLÓGICO //</span>
-        <h2 class="section-heading text-gradient">Habilidades Técnicas</h2>
+        <span class="section-label text-success">// COMPETENCIAS TÉCNICAS //</span>
+        <h2 class="section-heading text-gradient-emerald">Habilidades Técnicas</h2>
         <p class="section-description">
-          Dominio de lenguajes, frameworks y herramientas aprendidas en la carrera y proyectos prácticos.
+          Nivel de dominio ajustado en lenguajes de programación, diseño web y herramientas prácticas.
         </p>
       </div>
 
@@ -323,72 +304,72 @@
         <div class="col-12 col-lg-6">
           <div class="skills-card">
             <h3 class="h5 text-white mb-4 fw-bold d-flex align-items-center gap-2">
-              <i class="bi bi-bar-chart-fill text-white"></i> Nivel de Dominio Técnico
+              <i class="bi bi-bar-chart-fill text-success"></i> Nivel de Dominio
             </h3>
 
-            <!-- Skill 1: HTML5 -->
+            <!-- Skill 1: HTML5 (90%) -->
             <div class="skill-item">
               <div class="skill-info">
-                <span class="skill-name"><i class="bi bi-filetype-html text-danger"></i> HTML5 Semántico</span>
-                <span class="skill-percent">95%</span>
-              </div>
-              <div class="progress custom-progress" role="progressbar" aria-label="HTML5" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar custom-progress-bar" style="width: 95%"></div>
-              </div>
-            </div>
-
-            <!-- Skill 2: CSS3 / Flexbox -->
-            <div class="skill-item">
-              <div class="skill-info">
-                <span class="skill-name"><i class="bi bi-filetype-css text-primary"></i> CSS3 &amp; Flexbox Layout</span>
+                <span class="skill-name"><i class="bi bi-filetype-html text-danger fs-5"></i> HTML5 Semántico</span>
                 <span class="skill-percent">90%</span>
               </div>
-              <div class="progress custom-progress" role="progressbar" aria-label="CSS3" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress custom-progress" role="progressbar" aria-label="HTML5" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar custom-progress-bar" style="width: 90%"></div>
               </div>
             </div>
 
-            <!-- Skill 3: JavaScript -->
+            <!-- Skill 2: CSS3 / Flexbox (80%) -->
             <div class="skill-item">
               <div class="skill-info">
-                <span class="skill-name"><i class="bi bi-filetype-js text-warning"></i> JavaScript (ES6+ / DOM)</span>
-                <span class="skill-percent">85%</span>
-              </div>
-              <div class="progress custom-progress" role="progressbar" aria-label="JavaScript" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar custom-progress-bar" style="width: 85%"></div>
-              </div>
-            </div>
-
-            <!-- Skill 4: Bootstrap 5 -->
-            <div class="skill-item">
-              <div class="skill-info">
-                <span class="skill-name"><i class="bi bi-bootstrap-fill text-info"></i> Bootstrap 5 &amp; Mobile First</span>
-                <span class="skill-percent">90%</span>
-              </div>
-              <div class="progress custom-progress" role="progressbar" aria-label="Bootstrap 5" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar custom-progress-bar" style="width: 90%"></div>
-              </div>
-            </div>
-
-            <!-- Skill 5: PHP -->
-            <div class="skill-item">
-              <div class="skill-info">
-                <span class="skill-name"><i class="bi bi-filetype-php text-secondary"></i> PHP (Backend &amp; Lógica)</span>
+                <span class="skill-name"><i class="bi bi-filetype-css text-primary fs-5"></i> CSS3 &amp; Flexbox Layout</span>
                 <span class="skill-percent">80%</span>
               </div>
-              <div class="progress custom-progress" role="progressbar" aria-label="PHP" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress custom-progress" role="progressbar" aria-label="CSS3" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar custom-progress-bar" style="width: 80%"></div>
               </div>
             </div>
 
-            <!-- Skill 6: MySQL -->
+            <!-- Skill 3: JavaScript (50%) -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-filetype-js text-warning fs-5"></i> JavaScript (DOM &amp; ES6)</span>
+                <span class="skill-percent">50%</span>
+              </div>
+              <div class="progress custom-progress" role="progressbar" aria-label="JavaScript" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar custom-progress-bar" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 4: Bootstrap 5 (80%) -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-bootstrap-fill text-info fs-5"></i> Bootstrap 5 &amp; Mobile First</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="progress custom-progress" role="progressbar" aria-label="Bootstrap 5" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar custom-progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 5: PHP (70%) -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-filetype-php text-secondary fs-5"></i> PHP (Backend &amp; Lógica)</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="progress custom-progress" role="progressbar" aria-label="PHP" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar custom-progress-bar" style="width: 70%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 6: MySQL (40%) -->
             <div class="skill-item mb-0">
               <div class="skill-info">
-                <span class="skill-name"><i class="bi bi-database-fill text-light"></i> MySQL &amp; Bases Relacionales</span>
-                <span class="skill-percent">80%</span>
+                <span class="skill-name"><i class="bi bi-database-fill text-light fs-5"></i> MySQL &amp; Bases de Datos</span>
+                <span class="skill-percent">40%</span>
               </div>
-              <div class="progress custom-progress" role="progressbar" aria-label="MySQL" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar custom-progress-bar" style="width: 80%"></div>
+              <div class="progress custom-progress" role="progressbar" aria-label="MySQL" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar custom-progress-bar" style="width: 40%"></div>
               </div>
             </div>
 
@@ -400,33 +381,28 @@
           <div class="skills-card d-flex flex-column justify-content-between">
             <div>
               <h3 class="h5 text-white mb-4 fw-bold d-flex align-items-center gap-2">
-                <i class="bi bi-stars text-white"></i> Herramientas y Ecosistema
+                <i class="bi bi-tools text-info"></i> Herramientas y Ecosistema
               </h3>
               
-              <p class="text-secondary mb-4">
-                Insignias representativas de las herramientas de productividad, versionado y entorno de desarrollo empleadas activamente:
+              <p class="mb-4">
+                Herramientas de productividad, control de versiones y entornos de desarrollo utilizados activamente en proyectos:
               </p>
 
-              <div class="d-flex flex-wrap mb-4">
-                <span class="skill-pill"><i class="bi bi-git"></i> Git Version Control</span>
-                <span class="skill-pill"><i class="bi bi-github"></i> GitHub Pages</span>
-                <span class="skill-pill"><i class="bi bi-cpu"></i> Arquitectura MVC</span>
-                <span class="skill-pill"><i class="bi bi-layers"></i> Metodología Mobile First</span>
-                <span class="skill-pill"><i class="bi bi-diagram-3"></i> Modelado Entidad-Relación</span>
-                <span class="skill-pill"><i class="bi bi-hdd-network"></i> Servidores Apache / XAMPP</span>
-                <span class="skill-pill"><i class="bi bi-shield-check"></i> Sanitización &amp; Seguridad SQL</span>
-                <span class="skill-pill"><i class="bi bi-pc-display"></i> Visual Studio Code</span>
+              <div class="d-flex flex-wrap">
+                <span class="skill-pill"><i class="bi bi-git text-danger"></i> Git Version Control</span>
+                <span class="skill-pill"><i class="bi bi-github text-white"></i> GitHub Pages</span>
+                <span class="skill-pill"><i class="bi bi-phone text-info"></i> Mobile First</span>
+                <span class="skill-pill"><i class="bi bi-terminal text-success"></i> Python &amp; FastAPI</span>
+                <span class="skill-pill"><i class="bi bi-hdd-network text-warning"></i> VMware &amp; EVE-NG</span>
+                <span class="skill-pill"><i class="bi bi-cpu text-info"></i> Arduino &amp; C++</span>
+                <span class="skill-pill"><i class="bi bi-database text-primary"></i> SQLite</span>
+                <span class="skill-pill"><i class="bi bi-code-square text-white"></i> Visual Studio Code</span>
               </div>
             </div>
 
-            <div class="about-highlight-box mt-3">
-              <div class="d-flex align-items-center gap-3">
-                <i class="bi bi-lightbulb-fill text-warning fs-3"></i>
-                <div>
-                  <h4 class="h6 text-white mb-1 fw-bold">Defendible en Evaluación</h4>
-                  <small class="text-secondary">Tecnologías estándar sin dependencias oscuras: 100% entendimiento de la lógica del DOM y cascada CSS.</small>
-                </div>
-              </div>
+            <div class="about-highlight-box mt-4">
+              <div class="text-white fw-bold mb-1"><i class="bi bi-check-all text-success me-2"></i>Desarrollo Práctico</div>
+              <p class="small mb-0">Enfocado en la construcción de prototipos funcionales y código limpio.</p>
             </div>
 
           </div>
@@ -449,7 +425,7 @@
         </div>
 
         <h2 class="h1 text-white fw-bold mb-3">Descarga mi Currículum Vitae</h2>
-        <p class="text-secondary mx-auto mb-4" style="max-width: 600px;">
+        <p class="mx-auto mb-4" style="max-width: 600px;">
           Revisa a detalle mi formación académica en la Universidad de las Fuerzas Armadas ESPE, mis datos de contacto, referencias y trayectoria en formato PDF.
         </p>
 
@@ -474,8 +450,8 @@
     <div class="container">
       
       <div class="section-header">
-        <span class="section-label">// CONECTEMOS //</span>
-        <h2 class="section-heading text-gradient">Contacto Profesional</h2>
+        <span class="section-label text-warning">// CONECTEMOS //</span>
+        <h2 class="section-heading text-gradient-amber">Contacto Profesional</h2>
         <p class="section-description">
           ¿Tienes una oportunidad de proyecto o pasantía? Escríbeme directamente por correo o a través de mis redes sociales.
         </p>
@@ -492,9 +468,9 @@
               <!-- Correo con Copiado -->
               <div class="contact-link-box d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center gap-2">
-                  <div class="contact-icon-circle"><i class="bi bi-envelope-fill"></i></div>
+                  <div class="contact-icon-circle text-warning"><i class="bi bi-envelope-fill"></i></div>
                   <div>
-                    <small class="text-secondary d-block">Correo Electrónico</small>
+                    <small class="text-muted d-block">Correo Electrónico</small>
                     <span class="contact-email-text">benjaminsitocl@gmail.com</span>
                   </div>
                 </div>
@@ -505,66 +481,64 @@
 
               <!-- LinkedIn -->
               <a href="https://www.linkedin.com/in/benjamin-l%C3%B3pez-b51396404?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-link-box">
-                <div class="contact-icon-circle"><i class="bi bi-linkedin"></i></div>
+                <div class="contact-icon-circle text-primary"><i class="bi bi-linkedin"></i></div>
                 <div>
-                  <small class="text-secondary d-block">Perfil Profesional</small>
+                  <small class="text-muted d-block">Perfil Profesional</small>
                   <span class="fw-semibold text-white">LinkedIn / benjamin-lópez</span>
                 </div>
               </a>
 
               <!-- Instagram -->
               <a href="https://www.instagram.com/soy___benja?srtk=bWE3M2FxMW0xbjNr" target="_blank" rel="noopener noreferrer" class="contact-link-box">
-                <div class="contact-icon-circle"><i class="bi bi-instagram"></i></div>
+                <div class="contact-icon-circle text-danger"><i class="bi bi-instagram"></i></div>
                 <div>
-                  <small class="text-secondary d-block">Red Social</small>
+                  <small class="text-muted d-block">Red Social</small>
                   <span class="fw-semibold text-white">@soy___benja</span>
                 </div>
               </a>
 
               <!-- GitHub -->
               <a href="https://github.com/b3nja-bot" target="_blank" rel="noopener noreferrer" class="contact-link-box">
-                <div class="contact-icon-circle"><i class="bi bi-github"></i></div>
+                <div class="contact-icon-circle text-light"><i class="bi bi-github"></i></div>
                 <div>
-                  <small class="text-secondary d-block">Repositorios de Código</small>
+                  <small class="text-muted d-block">Repositorios de Código</small>
                   <span class="fw-semibold text-white">GitHub / b3nja-bot</span>
                 </div>
               </a>
             </div>
 
-            <div class="text-secondary small mt-3">
-              <i class="bi bi-geo-alt me-1"></i> Sangolquí • Pichincha, Ecuador
+            <div class="small mt-3 text-muted">
+              <i class="bi bi-geo-alt me-1 text-danger"></i> Sangolquí • Pichincha, Ecuador
             </div>
 
           </div>
         </div>
 
-        <!-- Formulario de Mensaje Rápido -->
+        <!-- Formulario Directo -->
         <div class="col-12 col-lg-7">
           <div class="contact-card">
             <h3 class="h5 text-white mb-2 fw-bold">Envíame un Mensaje</h3>
-            <p class="text-secondary small mb-4">Completa el formulario para redactar un mensaje directo a mi correo:</p>
+            <p class="small mb-4 text-muted">Puedes redactar un mensaje directo o escribirme por correo:</p>
 
-            <form id="contactForm">
+            <form action="mailto:benjaminsitocl@gmail.com" method="post" enctype="text/plain">
               <div class="mb-3">
                 <label for="senderName" class="form-label text-white small fw-semibold">Nombre o Empresa</label>
-                <input type="text" class="form-control form-samsung-control" id="senderName" placeholder="Tu nombre o el de tu organización" required>
+                <input type="text" name="Nombre" class="form-control form-samsung-control" id="senderName" placeholder="Tu nombre o empresa" required>
               </div>
 
               <div class="mb-3">
                 <label for="senderSubject" class="form-label text-white small fw-semibold">Asunto</label>
-                <input type="text" class="form-control form-samsung-control" id="senderSubject" placeholder="Propuesta de proyecto, pasantía o consulta" required>
+                <input type="text" name="Asunto" class="form-control form-samsung-control" id="senderSubject" placeholder="Propuesta de proyecto, pasantía o consulta" required>
               </div>
 
               <div class="mb-4">
                 <label for="senderMessage" class="form-label text-white small fw-semibold">Mensaje</label>
-                <textarea class="form-control form-samsung-control" id="senderMessage" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <textarea name="Mensaje" class="form-control form-samsung-control" id="senderMessage" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
               </div>
 
               <button type="submit" class="btn-samsung-primary w-100 py-3">
-                <i class="bi bi-send-fill"></i> Enviar Mensaje Directo
+                <i class="bi bi-send-fill"></i> Enviar Mensaje
               </button>
-
-              <div id="formFeedback" class="d-none"></div>
             </form>
 
           </div>
@@ -582,7 +556,7 @@
         
         <div class="text-center text-md-start">
           <div class="text-white fw-bold">Christian Benjamín López Aguilar</div>
-          <small class="text-secondary">Universidad de las Fuerzas Armadas ESPE • Tecnologías de la Información</small>
+          <small class="text-muted">Universidad de las Fuerzas Armadas ESPE • Tecnologías de la Información</small>
         </div>
 
         <!-- Iconos Sociales -->
@@ -601,107 +575,13 @@
           </a>
         </div>
 
-        <div class="text-center text-md-end text-secondary small">
-          © <span id="currentYear">2026</span> • Desplegado en GitHub Pages
+        <div class="text-center text-md-end text-muted small">
+          © 2026 • Desplegado en GitHub Pages
         </div>
 
       </div>
     </div>
   </footer>
-
-  <!-- // MODAL PROYECTO 1: SISTEMA POS // -->
-  <div class="modal fade" id="modalPos" tabindex="-1" aria-labelledby="modalPosLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-black border border-secondary text-white">
-        <div class="modal-header border-bottom border-secondary">
-          <h5 class="modal-title fw-bold" id="modalPosLabel">Sistema de Punto de Venta (POS) &amp; Facturación</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-        </div>
-        <div class="modal-body p-4">
-          <img src="img/proyecto-pos.svg" alt="POS Mockup" class="img-fluid rounded mb-3 border border-secondary">
-          <h6 class="fw-bold text-white mb-2">Características Clave del Proyecto:</h6>
-          <ul class="text-secondary small mb-3">
-            <li><strong>Módulo de Ventas:</strong> Selección rápida de productos, cálculo automático de subtotal, IVA y vuelto.</li>
-            <li><strong>Gestión de Inventario:</strong> Control de existencias con alertas automáticas cuando un producto llega al stock mínimo.</li>
-            <li><strong>Base de Datos Relacional:</strong> Diseñado en MySQL con tablas normalizadas para productos, clientes, ventas y detalle de ventas.</li>
-            <li><strong>Interfaz Responsiva:</strong> Construida con Bootstrap 5 para operar tanto en monitores de caja como en tabletas.</li>
-          </ul>
-          <div class="d-flex flex-wrap gap-2">
-            <span class="badge bg-secondary">PHP</span>
-            <span class="badge bg-secondary">MySQL</span>
-            <span class="badge bg-secondary">JavaScript</span>
-            <span class="badge bg-secondary">Bootstrap 5</span>
-          </div>
-        </div>
-        <div class="modal-footer border-top border-secondary">
-          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cerrar</button>
-          <a href="https://github.com/b3nja-bot" target="_blank" class="btn btn-light btn-sm fw-bold">Ver en GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- // MODAL PROYECTO 2: SEGUNDO CEREBRO // -->
-  <div class="modal fade" id="modalBrain" tabindex="-1" aria-labelledby="modalBrainLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-black border border-secondary text-white">
-        <div class="modal-header border-bottom border-secondary">
-          <h5 class="modal-title fw-bold" id="modalBrainLabel">Segundo Cerebro &amp; Asistente Inteligente</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-        </div>
-        <div class="modal-body p-4">
-          <img src="img/proyecto-segundo-cerebro.svg" alt="Segundo Cerebro Mockup" class="img-fluid rounded mb-3 border border-secondary">
-          <h6 class="fw-bold text-white mb-2">Características Clave del Proyecto:</h6>
-          <ul class="text-secondary small mb-3">
-            <li><strong>Base de Conocimiento Centralizada:</strong> Almacenamiento modular de notas técnicas y resúmenes de asignaturas universitarias.</li>
-            <li><strong>Asistente Contextual:</strong> Conexión a endpoints REST para responder dudas y sintetizar artículos largos.</li>
-            <li><strong>Búsqueda Indexada:</strong> Filtrado dinámico de información en milisegundos con interfaz oscura libre de distracciones.</li>
-          </ul>
-          <div class="d-flex flex-wrap gap-2">
-            <span class="badge bg-secondary">JavaScript</span>
-            <span class="badge bg-secondary">Python API</span>
-            <span class="badge bg-secondary">Bootstrap 5</span>
-            <span class="badge bg-secondary">Markdown</span>
-          </div>
-        </div>
-        <div class="modal-footer border-top border-secondary">
-          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cerrar</button>
-          <a href="https://github.com/b3nja-bot" target="_blank" class="btn btn-light btn-sm fw-bold">Ver en GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- // MODAL PROYECTO 3: CRUD EMPRESARIAL // -->
-  <div class="modal fade" id="modalCrud" tabindex="-1" aria-labelledby="modalCrudLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-black border border-secondary text-white">
-        <div class="modal-header border-bottom border-secondary">
-          <h5 class="modal-title fw-bold" id="modalCrudLabel">Sistema CRUD de Inventario y Clientes</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-        </div>
-        <div class="modal-body p-4">
-          <img src="img/proyecto-crud.svg" alt="CRUD Mockup" class="img-fluid rounded mb-3 border border-secondary">
-          <h6 class="fw-bold text-white mb-2">Características Clave del Proyecto:</h6>
-          <ul class="text-secondary small mb-3">
-            <li><strong>Operaciones Completas:</strong> Creación, lectura, actualización y eliminación de registros (CRUD) con confirmación modal.</li>
-            <li><strong>Validación Segura:</strong> Verificación de datos tanto en el cliente (JavaScript) como en el servidor (PHP con PDO).</li>
-            <li><strong>Consultas Parametrizadas:</strong> Protección contra inyecciones SQL mediante sentencias preparadas en MySQL.</li>
-          </ul>
-          <div class="d-flex flex-wrap gap-2">
-            <span class="badge bg-secondary">PHP PDO</span>
-            <span class="badge bg-secondary">MySQL</span>
-            <span class="badge bg-secondary">JavaScript</span>
-            <span class="badge bg-secondary">CSS3 / Flexbox</span>
-          </div>
-        </div>
-        <div class="modal-footer border-top border-secondary">
-          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cerrar</button>
-          <a href="https://github.com/b3nja-bot" target="_blank" class="btn btn-light btn-sm fw-bold">Ver en GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Bootstrap 5.3 Bundle con Popper JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
