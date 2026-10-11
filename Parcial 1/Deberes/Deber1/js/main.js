@@ -1,42 +1,18 @@
 /* ==========================================================================
    PORTAFOLIO PROFESIONAL - BENJAMÍN LÓPEZ
-   SCRIPTS PRINCIPALES (VANILLA JAVASCRIPT SENCILLO Y DEFENDIBLE)
+   SCRIPTS PRINCIPALES (SENCILLO, CLARO Y DEFENDIBLE EN CLASE)
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // NAVEGACION ACTIVA Y SCROLL //
-  const navLinks = document.querySelectorAll('.nav-link-custom');
-  const sections = document.querySelectorAll('section[id]');
-
-  window.addEventListener('scroll', () => {
-    let currentScroll = window.pageYOffset + 120;
-
-    sections.forEach(section => {
-      const sectionHeight = section.offsetHeight;
-      const sectionTop = section.offsetTop;
-      const sectionId = section.getAttribute('id');
-
-      if (currentScroll >= sectionTop && currentScroll < sectionTop + sectionHeight) {
-        navLinks.forEach(link => {
-          link.classList.remove('active');
-          if (link.getAttribute('href') === `#${sectionId}`) {
-            link.classList.add('active');
-          }
-        });
-      }
-    });
-  });
-
-  // CIERRE AUTOMATICO MENU MOVIL //
+  // CIERRE AUTOMATICO DEL MENU EN MOVILES //
   const navbarCollapse = document.getElementById('navbarContent');
+  const navLinks = document.querySelectorAll('.nav-link-custom');
+
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
       if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-        if (bsCollapse) {
-          bsCollapse.hide();
-        }
+        navbarCollapse.classList.remove('show');
       }
     });
   });
@@ -45,17 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnCopyEmail = document.getElementById('btnCopyEmail');
   if (btnCopyEmail) {
     btnCopyEmail.addEventListener('click', () => {
-      const email = 'benjaminsitocl@gmail.com';
-      navigator.clipboard.writeText(email).then(() => {
-        const originalText = btnCopyEmail.innerHTML;
-        btnCopyEmail.innerHTML = '<i class="bi bi-check2"></i> ¡Copiado!';
-        btnCopyEmail.classList.add('btn-light', 'text-dark');
-
-        setTimeout(() => {
-          btnCopyEmail.innerHTML = originalText;
-          btnCopyEmail.classList.remove('btn-light', 'text-dark');
-        }, 2000);
-      });
+      navigator.clipboard.writeText('benjaminsitocl@gmail.com');
+      btnCopyEmail.innerHTML = '<i class="bi bi-check2"></i> ¡Copiado!';
+      
+      setTimeout(() => {
+        btnCopyEmail.innerHTML = '<i class="bi bi-clipboard"></i> Copiar';
+      }, 2000);
     });
   }
 
