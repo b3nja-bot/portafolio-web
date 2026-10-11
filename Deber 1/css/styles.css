@@ -104,7 +104,7 @@ body {
 }
 
 .brand-badge {
-  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  background: linear-gradient(135deg, #3bc4ff, #818cf8);
   color: #000000;
   font-size: 0.75rem;
   font-weight: 800;
@@ -159,43 +159,15 @@ body {
   height: 190px;
   object-fit: cover;
   object-position: center 10%;
-  border: 4px solid #ffffff;
-  box-shadow: 0 0 35px rgba(56, 189, 248, 0.3), 0 0 15px rgba(255, 255, 255, 0.2);
+  border: 4px solid #b10000;
   transition: var(--transition-smooth);
 }
 
 .hero-avatar-wrapper:hover .hero-avatar {
-  transform: scale(1.03);
-  box-shadow: 0 0 45px rgba(56, 189, 248, 0.5);
+  transform: scale(1.1);
 }
 
-.hero-status-pill {
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  background: #000000;
-  border: 1px solid rgba(56, 189, 248, 0.4);
-  border-radius: 9999px;
-  padding: 0.3rem 0.95rem;
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
-}
 
-.status-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #10b981;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 0 0 8px #10b981;
-}
 
 .hero-title {
   font-size: clamp(2.2rem, 5.5vw, 3.8rem);
@@ -252,29 +224,6 @@ body {
   transform: translateY(-2px);
 }
 
-.btn-samsung-secondary {
-  background-color: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 0.95rem;
-  padding: 0.75rem 1.85rem;
-  border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  transition: var(--transition-smooth);
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.btn-samsung-secondary:hover {
-  background-color: rgba(56, 189, 248, 0.2);
-  border-color: var(--accent-cyan);
-  color: #ffffff;
-  transform: translateY(-2px);
-}
-
 /* // SECCIONES COMUNES // */
 .section-wrapper {
   padding: 5rem 0;
@@ -283,7 +232,7 @@ body {
 
 .section-divider {
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.3), transparent);
 }
 
@@ -687,8 +636,7 @@ body {
     border-radius: 18px;
   }
 
-  .btn-samsung-primary,
-  .btn-samsung-secondary {
+  .btn-samsung-primary {
     width: 100%;
   }
 
