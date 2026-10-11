@@ -1,9 +1,7 @@
-/* ==========================================================================
-   PORTAFOLIO PROFESIONAL - BENJAMÍN LÓPEZ
-   SCRIPTS PRINCIPALES (SENCILLO, CLARO Y DEFENDIBLE EN CLASE)
-   ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+
+
 
   // CIERRE AUTOMATICO DEL MENU EN MOVILES //
   const navbarCollapse = document.getElementById('navbarContent');
@@ -16,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+
+  
 
   // COPIAR CORREO AL PORTAPAPELES //
   const btnCopyEmail = document.getElementById('btnCopyEmail');
