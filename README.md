@@ -5,6 +5,7 @@
 **Institución:** Universidad de las Fuerzas Armadas ESPE (5to Semestre)  
 **Asignatura:** Web 2  
 **Contacto:** [benjaminsitocl@gmail.com](mailto:benjaminsitocl@gmail.com)  
+**GitHub:** [b3nja-bot](https://github.com/b3nja-bot)  
 **LinkedIn:** [Perfil Profesional](https://www.linkedin.com/in/benjamin-l%C3%B3pez-b51396404?utm_source=share_via&utm_content=profile&utm_medium=member_android)  
 **Instagram:** [@soy___benja](https://www.instagram.com/soy___benja?srtk=bWE3M2FxMW0xbjNr)  
 
@@ -54,44 +55,18 @@ WEB 2/
 
 ---
 
-## 🚀 Guía de Despliegue en GitHub Pages
+## 🚀 Despliegue en GitHub Pages
 
-Para publicar este proyecto de forma gratuita y accesible para cualquier empleador:
-
-1. **Inicializar Git y hacer commit:**
+1. **Vincular el repositorio remoto y subir el código:**
    ```bash
-   git init
-   git add .
-   git commit -m "feat: portafolio profesional mobile first con estilo samsung dark"
-   ```
-
-2. **Crear el repositorio en GitHub:**
-   - Ve a [GitHub](https://github.com/new) y crea un nuevo repositorio público (ejemplo: `portafolio-profesional`).
-
-3. **Vincular el repositorio remoto y subir el código:**
-   ```bash
-   git remote add origin https://github.com/TU_USUARIO/portafolio-profesional.git
-   git branch -M main
+   git remote set-url origin https://github.com/b3nja-bot/portafolio-web.git
    git push -u origin main
    ```
 
-4. **Activar GitHub Pages:**
-   - En tu repositorio de GitHub, dirígete a **Settings** > **Pages** (en el menú lateral izquierdo).
+2. **Activar GitHub Pages:**
+   - En tu repositorio de GitHub [https://github.com/b3nja-bot/portafolio-web](https://github.com/b3nja-bot/portafolio-web), entra en **Settings** > **Pages**.
    - En **Build and deployment** > **Source**, selecciona `Deploy from a branch`.
    - En **Branch**, selecciona `main` y la carpeta `/ (root)`.
    - Haz clic en **Save**.
-   - En 1-2 minutos, tu sitio web estará disponible públicamente en la URL:
-     `https://TU_USUARIO.github.io/portafolio-profesional/`
-
----
-
-## 🎓 Aspectos Clave para la Defensa Académica
-
-1. **¿Cómo se aplica Mobile First?**  
-   Todo el diseño se estructuró pensando primero en pantallas móviles (`col-12`, márgenes compactos, botones al 100% de ancho). Mediante los breakpoints de Bootstrap (`md: 768px`, `lg: 992px`), las tarjetas se expanden a 3 columnas (`col-md-4`) y la navegación pasa de menú hamburguesa a barra horizontal.
-
-2. **¿Por qué la estética negra?**  
-   Sigue las guías de diseño sobrio de Samsung, transmitiendo modernidad, seriedad profesional y reduciendo la fatiga visual, con un contraste accesible entre texto blanco `#ffffff` y fondo `#000000`.
-
-3. **¿Cómo se maneja la descarga del CV?**  
-   Mediante el atributo HTML5 `download` apuntando al archivo PDF local `src/Curriculum_Benjamin_Lopez.pdf`, lo que permite descargarlo directamente o visualizarlo en una pestaña con `target="_blank"`.
+   - Tu sitio web quedará disponible en:
+     `https://b3nja-bot.github.io/portafolio-web/`
