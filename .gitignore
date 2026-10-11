@@ -1,0 +1,14 @@
+# Screenshots temporales de prueba
+img/screenshot*.png
+img/final_*.png
+img/mobile_*.png
+img/desktop_*.png
+img/page_full*.png
+img/scrolled_*.png
+img/projects_*.png
+
+# SO & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
