@@ -333,6 +333,7 @@ body {
 
 
 /* // TARJETAS DE PROYECTOS // */
+.card.project-card,
 .project-card {
   background-color: var(--bg-surface-1);
   border: 1px solid var(--border-subtle);
@@ -424,6 +425,7 @@ body {
   margin-bottom: 1.75rem;
 }
 
+.badge.tech-badge,
 .tech-badge {
   background-color: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -432,6 +434,7 @@ body {
   font-weight: 600;
   padding: 0.3rem 0.75rem;
   border-radius: 9999px;
+  line-height: normal;
 }
 
 .btn-project-code {
@@ -523,6 +526,7 @@ body {
   border-radius: 9999px;
 }
 
+.badge.skill-pill,
 .skill-pill {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid var(--border-subtle);
@@ -536,8 +540,10 @@ body {
   gap: 0.6rem;
   margin: 0.45rem;
   transition: var(--transition-smooth);
+  line-height: normal;
 }
 
+.badge.skill-pill:hover,
 .skill-pill:hover {
   background: rgba(56, 189, 248, 0.2);
   border-color: var(--accent-cyan);
